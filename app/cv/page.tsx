@@ -10,6 +10,13 @@ import { Check } from 'lucide-react';
 const PREVIEW_URL = 'https://richardoliverbray.podia.com/how-to-write-the-best-software-engineer-cv-resume';
 const BUY_URL = 'https://richardoliverbray.podia.com/how-to-write-the-best-software-engineer-cv-resume/buy';
 
+export function metadata() {
+  return {
+    title: 'How to Write the Best Software Engineer CV/Resume',
+    description: 'Learn how to write the best CV/Resume to land your first job in tech.',
+  };
+}
+
 export default function Page() {
   return (
     <>
@@ -90,7 +97,7 @@ export default function Page() {
       <section id="getCourse" className="mb-14">
         <SubHeading className="text-center mb-4">Get the Course</SubHeading>
 
-        <div className="border rounded px-12 py-8">
+        <div className="border rounded px-12 py-8 mb-4">
           <div className="text-teal-700 text-7xl text-center mb-4">$20</div>
           <ul className="space-y-4 mb-4">
             <li className="flex gap-2">
@@ -117,6 +124,12 @@ export default function Page() {
             Get the course
           </ButtonPrimary>
           <p></p>
+        </div>
+        <div className="text-center font-light">
+          Any question:{' '}
+          <a href="mailto:hello@orva.studio" className="text-teal-700">
+            hello@orva.studio
+          </a>
         </div>
       </section>
 
