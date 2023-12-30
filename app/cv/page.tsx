@@ -73,8 +73,8 @@ export default function Page() {
         <div className="flex items-center flex-wrap  md:flex-nowrap">
           <article className="font-light text-lg px-4">
             <p>
-              I'm <a href="https://robray.dev/">Richard Oliver Bray</a>, a passionate full-stack developer with over a
-              decade of professional experience.
+              I&apos;m <a href="https://robray.dev/">Richard Oliver Bray</a>, a passionate full-stack developer with
+              over a decade of professional experience.
             </p>
             <p>
               {' '}
@@ -84,7 +84,7 @@ export default function Page() {
               <a href="https://www.tiktok.com/@richardoliverbray">TikTok</a>, and{' '}
               <a href="https://www.instagram.com/richobray/">Instagram</a>.
             </p>
-            <p>I'm looking forward to learning together 💪</p>
+            <p>I&apos;m looking forward to learning together 💪</p>
             <div className="w-32">
               <Image src="rbray/signature.png" alt="Richard Oliver Bray Signature" width={231} height={130} />
             </div>
