@@ -38,6 +38,7 @@ export default function Page() {
       <div className="max-w-3xl w-full px-4 flex-d">
         <iframe
           className="w-full aspect-video rounded-xl mb-12"
+          loading="lazy"
           src="https://www.youtube.com/embed/SthycFOz79c?si=C9OJfDWLr-h9gVFU&amp;controls=0"
           title="Write the Best Software Engineer CV Teaser"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
