@@ -86,9 +86,10 @@ export default function Page() {
             </p>
             <p>
               {' '}
-              I have over 10 years of professional experience and I've been teaching people how to code for a similar
-              length of time on platforms such as <a href="https://www.youtube.com/c/RichardBray">YouTube</a>,{' '}
-              <a href="https://teamtreehouse.com/profiles/richardbray2">Treehouse</a>,{' '}
+              I have over 10 years of professional experience and I&apos;ve been teaching people how to code for a
+              similar length of time on platforms such as <a href="https://www.youtube.com/c/RichardBray">
+                YouTube
+              </a>, <a href="https://teamtreehouse.com/profiles/richardbray2">Treehouse</a>,{' '}
               <a href="https://www.tiktok.com/@richardoliverbray">TikTok</a>, and{' '}
               <a href="https://www.instagram.com/richobray/">Instagram</a>.
             </p>
