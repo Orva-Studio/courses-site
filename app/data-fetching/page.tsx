@@ -1,6 +1,6 @@
+import BackLink from '@/components/BackLink';
 import Button from '@/components/Button';
 import Heading from '@/components/Heading';
-import Link from 'next/link';
 
 const PREVIEW_URL = 'https://richardoliverbray.podia.com/mastering-data-fetching-in-react';
 export function metadata() {
@@ -13,9 +13,7 @@ export function metadata() {
 export default function Page() {
   return (
     <>
-      <Link href="/" className="font-light text-lg underline mb-12">
-        👈 Go Back
-      </Link>
+      <BackLink />
       <Heading>
         Mastering Data Fetching in <span className="text-teal-700">React</span>
       </Heading>

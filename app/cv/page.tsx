@@ -1,28 +1,38 @@
 import Heading from '@/components/Heading';
 import SubHeading from '@/components/SubHeading';
-import Link from 'next/link';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import Image from 'next/image';
 import { Check } from 'lucide-react';
 import Button from '@/components/Button';
 import BackLink from '@/components/BackLink';
+import Highlight from '@/components/Highlight';
+import type { Metadata } from 'next';
 
 const PREVIEW_URL = 'https://richardoliverbray.podia.com/how-to-write-the-best-software-engineer-cv-resume';
 const BUY_URL = 'https://richardoliverbray.podia.com/how-to-write-the-best-software-engineer-cv-resume/buy';
 
-export function metadata() {
-  return {
+export const metadata: Metadata = {
+  title: 'How to Write the Best Software Engineer CV/Resume',
+  description: 'Learn how to write the best CV/Resume to land your first job in tech.',
+  openGraph: {
+    type: 'website',
+    url: 'https://courses.orva.studio/cv',
     title: 'How to Write the Best Software Engineer CV/Resume',
     description: 'Learn how to write the best CV/Resume to land your first job in tech.',
-  };
-}
+    images: [
+      {
+        url: '/courses/og/cv.png',
+      },
+    ],
+  },
+};
 
 export default function Page() {
   return (
     <>
       <BackLink />
       <Heading>
-        Write the Best Software Engineer <span className="text-teal-700">CV/Resume</span>
+        Write the Best Software Engineer <Highlight>CV/Resume</Highlight>
       </Heading>
 
       <div className="max-w-3xl w-full px-4 flex-d">
