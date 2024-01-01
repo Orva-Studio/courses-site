@@ -3,8 +3,6 @@ import { Poppins } from 'next/font/google';
 import './globals.css';
 import Image from 'next/image';
 import Link from 'next/link';
-import { PHProvider, PostHogPageview } from './providers';
-import { Suspense } from 'react';
 import Script from 'next/script';
 
 const poppins = Poppins({ subsets: ['latin'], weight: ['300', '500'], variable: '--font-poppins' });
