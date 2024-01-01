@@ -10,6 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@builder.io/react-hydration-overlay": "^0.0.6",
     "@radix-ui/react-accordion": "^1.1.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
@@ -29,7 +30,7 @@
     "eslint": "^8.55.0",
     "eslint-config-next": "14.0.4",
     "postcss": "^8.4.32",
-    "tailwindcss": "^3.3.6",
+    "tailwindcss": "^3.4.0",
     "typescript": "^5.3.3"
   }
 }
