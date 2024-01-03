@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { Check } from 'lucide-react';
-import { Heading, SubHeading, TextBlock, Button, BackLink, Highlight } from '@/components';
+import { Heading, SubHeading, TextBlock, Button, BackLink, Highlight } from '@/components/index';
 import type { Metadata } from 'next';
 
 const PREVIEW_URL = 'https://richardoliverbray.podia.com/how-to-write-the-best-software-engineer-cv-resume';

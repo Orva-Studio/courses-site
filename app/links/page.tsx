@@ -1,4 +1,4 @@
-import { TextBlock, Heading, Highlight, BackLink, SubHeading } from '@/components';
+import { TextBlock, Heading, Highlight, BackLink, SubHeading } from '@/components/index';
 import type { PageLink } from './components/PageLinks';
 import type { Metadata } from 'next';
 import PageLinks from './components/PageLinks';
