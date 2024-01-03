@@ -27,16 +27,14 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable} font-sans bg-stone-100`}>
+      <body className={`${poppins.variable} font-sans bg-stone-100 text-zinc-700`}>
         <nav className="flex px-4 items-center justify-between mx-auto max-w-screen-xl mt-12 ">
           <div className="w-32">
             <Link href="/">
               <Image src="/orva.svg" alt="Orva Logo" width={369.99} height={106.19} priority />
             </Link>
           </div>
-          <a href="https://www.orva.studio/" rel="noopener noreferrer" target="_blank">
-            Studio
-          </a>
+          <Link href="/links">Links</Link>
         </nav>
         <main className="flex min-h-screen flex-col items-center pt-20">{children}</main>
         <footer className="text-center font-light my-8">&copy; Orva Studio Limited</footer>

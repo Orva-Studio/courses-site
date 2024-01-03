@@ -13,7 +13,7 @@ export interface ButtonProps {
 export default function Button({ children, href, external, className, type = 'primary' }: ButtonProps) {
   const typeStyles = {
     primary: 'text-white bg-teal-700 hover:bg-teal-800',
-    secondary: 'text-teal-700 border-teal-600 border-2 hover:bg-gray-50',
+    secondary: 'text-teal-700 border-teal-700 border-2 hover:bg-gray-50',
   };
   return (
     <a
@@ -21,7 +21,7 @@ export default function Button({ children, href, external, className, type = 'pr
       draggable="false"
       href={href}
       className={twMerge([
-        'flex gap-2 px-6 py-3 border text-base font-medium rounded-md transition-all justify-center items-center',
+        'flex gap-2 px-6 py-3 border font-medium rounded-md transition-all justify-center items-center',
         typeStyles[type],
         className,
       ])}

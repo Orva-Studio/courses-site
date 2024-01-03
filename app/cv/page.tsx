@@ -1,11 +1,6 @@
-import Heading from '@/components/Heading';
-import SubHeading from '@/components/SubHeading';
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import Image from 'next/image';
 import { Check } from 'lucide-react';
-import Button from '@/components/Button';
-import BackLink from '@/components/BackLink';
-import Highlight from '@/components/Highlight';
+import { Heading, SubHeading, TextBlock, Button, BackLink, Highlight } from '@/components';
 import type { Metadata } from 'next';
 
 const PREVIEW_URL = 'https://richardoliverbray.podia.com/how-to-write-the-best-software-engineer-cv-resume';
@@ -52,7 +47,7 @@ export default function Page() {
         </Button>
       </section>
 
-      <div className="max-w-screen-lg font-light text-lg mb-14 px-4">
+      <TextBlock>
         <p>
           Getting a job in software engineering is hard. You have to first have the right skills, then practise
           interview questions and then pass the coding interview. But before all of that, you have to get the interview.
@@ -62,7 +57,7 @@ export default function Page() {
           This course will teach you how to write a good CV/Resume that will increase the chance of you landing that
           interview.
         </p>
-      </div>
+      </TextBlock>
 
       <section id="lessons" className="text-center mb-16">
         <SubHeading>Lessons</SubHeading>
@@ -150,17 +145,6 @@ export default function Page() {
           </a>
         </div>
       </section>
-
-      {/* <SubHeading>FAQ</SubHeading>
-      <Accordion type="single" collapsible>
-        <AccordionItem value="item-1">
-          <AccordionTrigger>Is there a refund policy?</AccordionTrigger>
-          <AccordionContent>
-            Yes. If you're unsatisfied with your purchase, you can request a full refund by emailing hello@orva.studio.
-            To be eligible, you must not complete more than 30% of the course.
-          </AccordionContent>
-        </AccordionItem>
-      </Accordion> */}
     </>
   );
 }

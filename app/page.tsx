@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Heading from '@/components/Heading';
 import Highlight from '@/components/Highlight';
+import TextBlock from '@/components/TextBlock';
 
 export default function Home() {
   return (
@@ -9,14 +10,14 @@ export default function Home() {
       <Heading>
         The <Highlight>skills</Highlight> you need for a software engineer job
       </Heading>
-      <div className="max-w-screen-lg font-light text-lg mb-14 px-4 text-center">
+      <TextBlock className="text-center">
         <p>
           Getting your first software engineer job is hard! Companies want someone who can hit the ground running not
           someone who needs to be trained. This site will teach you the skills you need to get a job with a focus on{' '}
           <Highlight bold>TypeScript</Highlight>, <Highlight bold>React</Highlight> and{' '}
           <Highlight bold>PostgreSQL</Highlight>.
         </p>
-      </div>
+      </TextBlock>
       <h2 className="mb-8 text-3xl font-light">Courses</h2>
       <section className="grid grid-rows-2 grid-cols-1 min-[480px]:grid-cols-2 lg:grid-cols-3 px-4 gap-x-4 gap-y-8 max-w-screen-xl">
         <article>

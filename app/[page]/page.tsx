@@ -1,6 +1,7 @@
 import BackLink from '@/components/BackLink';
 import Heading from '@/components/Heading';
 import Highlight from '@/components/Highlight';
+import TextBlock from '@/components/TextBlock';
 
 interface PageParams {
   params: {
@@ -63,9 +64,9 @@ export default function Page({ params }: PageParams) {
     <>
       <BackLink />
       <Heading>{pageData[params.page].titleJSX}</Heading>
-      <div className="max-w-screen-md font-light text-lg mb-14 px-4">
+      <TextBlock>
         <p>This course is currently in development.</p>
-      </div>
+      </TextBlock>
     </>
   );
 }
