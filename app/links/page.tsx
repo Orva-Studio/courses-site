@@ -12,6 +12,15 @@ const mainLinks: PageLink[] = [
   {
     title: (
       <>
+        Write the Best Software Engineer <Highlight>CV/Resume</Highlight>
+      </>
+    ),
+    href: '/cv',
+    internal: true,
+  },
+  {
+    title: (
+      <>
         Check if you are <Highlight>developer ready</Highlight>{' '}
       </>
     ),
@@ -29,6 +38,9 @@ const mainLinks: PageLink[] = [
     title: 'Check out MightyMeld',
     href: 'https://www.mightymeld.com/',
   },
+];
+
+const otherLinks: PageLink[] = [
   {
     title: (
       <>
@@ -45,9 +57,6 @@ const mainLinks: PageLink[] = [
     ),
     href: 'https://quokkajs.com/?referrer=RichardBray',
   },
-];
-
-const otherLinks: PageLink[] = [
   {
     title: (
       <>
@@ -86,7 +95,7 @@ export default function Page() {
         <SubHeading className="text-center">Sign up to the newsletter</SubHeading>
         <form
           action="https://richardoliverbray.podia.com/email_lists/487145/subscriptions"
-          accept-charset="UTF-8"
+          acceptCharset="UTF-8"
           method="post"
           className="flex gap-2 justify-center items-center font-light px-4"
         >
