@@ -21,10 +21,10 @@ const mainLinks: PageLink[] = [
   {
     title: (
       <>
-        Check if you are <Highlight>developer ready</Highlight>{' '}
+        ⭐️ Check if you are <Highlight>developer ready</Highlight>{' '}
       </>
     ),
-    href: 'https://www.youtube.com/channel/UCRQdwmWMhTcqDFjPT4UPZYA',
+    href: 'https://richardoliverbray.podia.com/developer-ready-questions',
   },
   {
     title: (
