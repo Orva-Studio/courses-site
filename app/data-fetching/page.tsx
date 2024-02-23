@@ -21,7 +21,7 @@ export default function Page() {
       </Heading>
       <TextBlock>
         <p>
-          This course is currently in development with <a href="https://www.newline.co/">/newline</a>. To be notified when it's ready, please sign up to the <Link href="/links">newsletter</Link>.
+          This course is currently in development with <a href="https://www.newline.co/">/newline</a>. To be notified when it&apos;s ready, please sign up to the <Link href="/links">newsletter</Link>.
         </p>
       </TextBlock>
     </>
