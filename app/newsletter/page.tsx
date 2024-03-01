@@ -1,4 +1,4 @@
-import { Heading, Highlight, SubHeading, TextBlock } from "@/components";
+import { Highlight, SubHeading, TextBlock } from "@/components/index";
 
 export default function Page() {
   return (
@@ -43,11 +43,10 @@ export default function Page() {
             need as a beginner to take your career to the next level.
           </p>
           <p>No more wasting hours surfing the internet wondering if beginner courses even exist.</p>
-          <p>No more being uncertain if AI will just end up replacing you in a few years.</p>
           <p>No more encountering “coders paralysis” before a vital coding session.</p>
-          <p className="mb-4">
+          <p className="mb-12">
             I will personally send you the 12 courses, my 10+ years of notes, and the 10 real-world project ideas
-            immediately, and completely FREE so you can jump start your developer journey and AI-proof your future.
+            immediately, and completely FREE so you can jump start your developer journey.
           </p>
 
           <form
@@ -66,8 +65,9 @@ export default function Page() {
             <input
               className="px-6 py-2 border-teal-700 border-2 font-medium rounded-md transition-all text-white bg-teal-700 hover:bg-teal-800 cursor-pointer"
               type="submit"
-              value="Yes! Send me over 10 years of exclusive knowledge and the BONUS!"
+              value=""
             />
+            <button>Yes! Send me 10 years of exclusive knowledge & the BONUS!</button>
           </form>
         </TextBlock>
       </div>
