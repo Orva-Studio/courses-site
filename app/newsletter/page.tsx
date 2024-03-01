@@ -62,12 +62,10 @@ export default function Page() {
               required
               placeholder="Email"
             />
-            <input
-              className="px-6 py-2 border-teal-700 border-2 font-medium rounded-md transition-all text-white bg-teal-700 hover:bg-teal-800 cursor-pointer"
-              type="submit"
-              value=""
-            />
-            <button>Yes! Send me 10 years of exclusive knowledge & the BONUS!</button>
+
+            <button className="px-6 py-2 border-teal-700 border-2 font-medium rounded-md transition-all text-white bg-teal-700 hover:bg-teal-800 cursor-pointer">
+              Yes! Send me 10 years of exclusive knowledge & the BONUS!
+            </button>
           </form>
         </TextBlock>
       </div>
